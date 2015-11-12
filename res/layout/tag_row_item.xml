@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_list_border"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <Button
+        android:id="@+id/btn_delete_item"
+        android:layout_width="10dp"
+        android:layout_height="40dp"
+        android:layout_weight="1.5"
+        android:background="@color/Transparent"
+        android:focusable="false"
+        android:text="@string/X"
+        android:textColor="@color/Gray"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTAG"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="5"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="@string/txtTAG"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Black" />
+
+    <ImageView
+        android:id="@+id/imgvw_navigate"
+        android:layout_width="10dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center|right"
+        android:layout_weight="1.5"
+        android:focusable="false"
+        android:src="@drawable/blue_navigate" />
+
+</LinearLayout>

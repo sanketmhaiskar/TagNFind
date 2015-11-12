@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linlayout_show_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Black"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/rellayout_back_btn"
+            android:layout_width="60dip"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_click_background_selector"
+            android:clickable="true"
+            android:padding="5dp" >
+
+            <ImageView
+                android:id="@+id/imgvw_BACK"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/txtTAG"
+                android:src="@drawable/green_back_arrow" />
+
+            <TextView
+                android:id="@+id/txt_title_HELP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgvw_BACK"
+                android:gravity="center"
+                android:text="@string/txtBACK"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Lime_Green" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_show_title"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="@string/txtHELP"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Lime_Green" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linlayout_show_titlebar"
+        android:background="@drawable/help"
+        android:padding="10dp" >
+    </ScrollView>
+
+</RelativeLayout>

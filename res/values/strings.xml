@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TagNFind</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">Type Tag Name</string>
+    <string name="txtTAG">TAG</string>
+    <string name="txtFIND">FIND</string>
+    <string name="txtUPDATE">UPDATE</string>
+    <string name="main_title">Tag N Find</string>
+    <string name="txt_target_name">Type Target Name</string>
+    <string name="hint_tag">e.g. My Car , My Hotel</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="delete">DELETE</string>
+    <string name="at">\@</string>
+    <string name="X">X</string>
+    <string name="txtViewTag">View Tag</string>
+    <string name="txtBACK">BACK</string>
+    <string name="txtHELP">HELP</string>
+  
+
+</resources>
